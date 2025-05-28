@@ -4,12 +4,17 @@
   "description": "VSCode tools for FRC team 2040-DERT, these tools are only supposed to be used with the DERT C++ framework",
   "version": "0.0.1",
   "publisher": "JanelynAnderson",
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/JanelynAnderson/DERT_CPP_Tools.git"
+  },
   "engines": {
-    "vscode": "^1.96.4"
+    "vscode": "^1.96.2"
   },
   "categories": [
     "Other"
   ],
+  
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
@@ -33,7 +38,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.96.4",
+    "@types/vscode": "^1.96.2",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
