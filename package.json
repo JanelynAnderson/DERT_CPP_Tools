@@ -2,7 +2,7 @@
   "name": "dertcpptools",
   "displayName": "DERT C++ Tools",
   "description": "VSCode tools for FRC team 2040-DERT, these tools are only supposed to be used with the DERT C++ framework",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "JanelynAnderson",
   "repository": {
     "type": "git",
@@ -14,7 +14,6 @@
   "categories": [
     "Other"
   ],
-  
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
