@@ -2,7 +2,8 @@
   "name": "dertcpptools",
   "displayName": "DERT C++ Tools",
   "description": "VSCode tools for FRC team 2040-DERT, these tools are only supposed to be used with the DERT C++ framework",
-  "version": "0.0.2",
+  "icon": "Images/DERT_Icon.png",
+  "version": "0.0.4",
   "publisher": "JanelynAnderson",
   "repository": {
     "type": "git",
@@ -20,11 +21,11 @@
     "commands": [
       {
         "command": "dertcpptools.createcomponent",
-        "title": "Create C++ Component"
+        "title": "DERT: Create C++ Component"
       },
       {
         "command": "dertcpptools.createlibrary",
-        "title": "Create C++ Library"
+        "title": "DERT: Create C++ Library"
       }
     ]
   },
